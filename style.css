@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.rectangle {
+  width: 400px;
+  height: 700px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.inner_rectangle {
+  background: white;
+  width: 350px;
+  height: 650px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  background: rgb(26, 26, 26);
+}
+
+.card {
+  background: rgb(45, 45, 45);
+  color: whitesmoke;
+  position: relative;
+  padding: 5px 5px;
+  font-family: sans-serif;
+}
+
+.rank {
+  position: absolute;
+  background: rgb(173, 229, 61);
+  color: black;
+  top: 0px;
+  right: 0px;
+  padding: 4px 10px;
+
+  font-weight: bold;
+  border-radius: 0 0 15px 15px;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.album {
+  color: gray;
+}
